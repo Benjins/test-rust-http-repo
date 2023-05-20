@@ -2,8 +2,12 @@
 name = "test-http-repo"
 version = "0.1.0"
 edition = "2021"
-homepage = "http://benjins.com/test"
-documentation = "http://benjins.com/test/docs?gh"
+
+# This is just a test since nginx supports HTTPS but does not enforce it
+homepage = "http://nginx.org/"
+
+# Same as above, with a different URL
+documentation = "http://www.washington.edu/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
