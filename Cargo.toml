@@ -4,13 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 # This is just a test since nginx supports HTTPS but does not enforce it
-homepage = "http://nginx.org/"
+homepage = "https://nginx.org/"
 
 # A site which (currently) does not support HTTPS at all
 documentation = "http://info.cern.ch/"
 
 # This one does redirect (and supports HSTS)
-repository = "http://github.com/Benjins"
+repository = "https://github.com/Benjins"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
