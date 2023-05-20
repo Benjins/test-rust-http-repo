@@ -1,0 +1,15 @@
+[package]
+name = "test-http-repo"
+version = "0.1.0"
+edition = "2021"
+homepage = "http://benjins.com/test"
+documentation = "http://benjins.com/test/docs?gh"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+
+
